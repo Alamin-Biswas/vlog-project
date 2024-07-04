@@ -1,0 +1,65 @@
+.side{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    box-sizing:border-box;
+    box-shadow: 5px 5px rgba(58, 28, 6, 0.39);
+    padding: 1px;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: aqua;
+    
+}
+.img-size{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+.log-in{
+    font-size: 2rem;
+    background-color: crimson;
+    color: white;
+    margin-left: 50px;
+
+}
+.big{
+    font-size: 1.5rem;
+    font-weight:600;
+    max-width: 100px;
+}
+.side-picture{
+    max-width: 150px;
+    max-height: 150px;
+}
+figure, figcaption{
+    margin: 0;
+    padding: 0;
+}
+figcaption{
+    font-size: 1.5rem;
+    color: rgb(236, 0, 225);
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+p{
+    font-size: small;
+}
+.side-text{
+    display: inline-block;
+    max-width: 45%;
+    text-align: initial;
+}
+.picture{
+    display: inline-block;
+    max-width: 45%;
+}
